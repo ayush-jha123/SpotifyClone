@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    background-color: #42f54e;
+    height: 7vh;
+    width: 100vw;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-self: center;
+}
+
+.logo {
+    width: 127px;
+}
+
+.searchbar {
+    width: 28vw;
+}
+
+.searchbotton {
+    width: 6vw;
+}
+
+ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container {
+    background-image: url(background.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    min-height: 86vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ser {
+    display: flex;
+    height: 3vh;
+    align-self: center;
+}
+
+.playbar {
+    position: sticky;
+    background-color: #42f54e;
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#progressbar {
+    width: 68vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.play {
+    text-align: center;
+}
+
+.songsplaylist {
+    width: 897px;
+    height: 531px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.songs {
+    background-color: wheat;
+    height: 48px;
+    width: 41vw;
+    position: relative;
+    left: 41px;
+    top: 36px;
+    border-radius: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    /* border: 6px solid black; */
+    box-sizing: border-box;
+}
+
+.songs img {
+    width: 45px;
+    border-radius: 58px;
+    height: 43px;
+    position: relative;
+    top: 2px;
+    left: 7px;
+}
+
+#mastersongname {
+    height: 20px;
+    width: 478px;
+    position: relative;
+    font-size: 20px;
+}
+
+.songinfo {
+    position: absolute;
+    bottom: 1px;
+    left: 54px;
+}
+
+.songname {
+    font-size: 20px;
+}
+
+.songinfo img {
+    opacity: 0;
+
+}
+
+#time {
+    position: relative;
+    left: 492px;
+    bottom: 17px;
+}
+
+@media screen and (max-width: 1100px) {
+    nav {
+        flex-direction: column;
+        height: 24vh;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .logo {
+        position: relative;
+        left: 41vw;
+    }
+
+    .searchbar {
+        width: 65vw;
+        position: relative;
+        top: 12px
+    }
+
+    .searchbotton {
+        position: relative;
+        top: 12px;
+    }
+
+    .songs {
+        width: 77vw;
+    }
+
+    .playbar {
+        height: 18vh;
+    }
+
+}

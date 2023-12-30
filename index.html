@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your Music App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="spotifylogo2.png" alt="spotify" class="logo">
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>About</li>
+            </ul>
+            <bottom class="ser">
+                <input type="text" placeholder="Search your favourate song" class="searchbar">
+                <input type="button" value="Search" class="searchbotton">
+            </bottom>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="songsplaylist">
+        <div class="songs">
+            <img src="covers/1.jpg">
+            <span class="songname">May God Bless You</span>
+            <i class="fa-solid songicon fa-play-circle" id="1"
+                style="height: 20px; position: relative; top: 12px; right: 18px;"></i>
+        </div>
+        <div class="songs">
+            <img src="covers/2.jpg">
+            <span class="songname">May God Bless You</span>
+            <i class="fa-solid songicon fa-play-circle" id="2"
+                style="height: 20px; position: relative; top: 12px; right: 18px;"></i>
+        </div>
+        <div class="songs">
+            <img src="covers/3.jpg">
+            <span class="songname">May God Bless You</span>
+            <i class="fa-solid songicon fa-play-circle" id="3"
+                style="height: 20px; position: relative; top: 12px; right: 18px;"></i>
+        </div>
+        <div class="songs">
+            <img src="covers/4.jpg">
+            <span class="songname">May God Bless You</span>
+            <i class="fa-solid songicon fa-play-circle" id="4"
+                style="height: 20px; position: relative; top: 12px; right: 18px;"></i>
+        </div>
+        <div class="songs">
+            <img src="covers/5.jpg">
+            <span class="songname">May God Bless You</span>
+            <i class="fa-solid songicon fa-play-circle" id="5"
+                style="height: 20px; position: relative; top: 12px; right: 18px;"></i>
+        </div>
+        <div class="songs">
+            <img src="covers/6.jpg">
+            <span class="songname">May God Bless You</span>
+            <i class="fa-solid songicon fa-play-circle" id="6"
+                style="height: 20px; position: relative; top: 12px; right: 18px;"></i>
+        </div>
+        <div class="songs">
+            <img src="covers/7.jpg">
+            <span class="songname">May God Bless You</span>
+            <i class="fa-solid songicon fa-play-circle" id="7"
+                style="height: 20px; position: relative; top: 12px; right: 18px;"></i>
+        </div>
+        <div class="songs">
+            <img src="covers/8.jpg">
+            <span class="songname">May God Bless You</span>
+            <i class="fa-solid songicon fa-play-circle" id="8"
+                style="height: 20px; position: relative; top: 12px; right: 18px;"></i>
+        </div>
+        <!-- <div class="songs">
+            <img src="covers/9.jpg">
+            <span>May God Bless You</span>
+            <i class="fa-solid fa-play" style="height: 20px; position: relative; top: 12px; right: 18px;"></i>
+        </div>
+        <div class="songs">
+            <img src="covers/10.jpg">
+            <span>May God Bless You</span>
+            <i class="fa-solid fa-play" style="height: 20px; position: relative; top: 12px; right: 18px;"></i>
+        </div> -->
+    </div>
+    </main>
+    <footer class="playbar">
+        <input type="range" name="range" id="progressbar" min="0" value="0" max="100">
+        <div class="play">
+            <i class="fa-solid fa-backward-step" id="previous" style="padding: 0 7px;"></i>
+            <i class="fa-solid fa-play-circle" id="masterplay" style="padding: 0 7px;"></i>
+            <i class="fa-solid fa-forward-step" id="next" style="padding: 0 7px;"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" style="width: 74px;" id="gif">
+            <span id="mastersongname">Warriyo - Mortals [NCS Release]</span>
+        </div>
+        <span id="time">
+            <p>00:00</p>
+        </span>
+    </footer>
+    <script src="https://kit.fontawesome.com/02b42cff63.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
