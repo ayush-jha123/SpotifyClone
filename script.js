@@ -21,7 +21,7 @@ let songs = [
 // songItems.forEach((element, i) => {
 //   element.getElementsByTagName("img")[0].src = songs[i].coverPath;
 //   element.getElementsByClassName("songname")[0].innertext = songs[i].songName;
-// })
+// }) g
 
 songItems.forEach((element, i) => {
   element.getElementsByTagName("img")[0].src = songs[i].coverPath;
